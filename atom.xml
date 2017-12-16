@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Amumu233</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-11-20T03:08:29.638Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>amumu233</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>node之path</title>
+    <link href="http://yoursite.com/2017/11/20/node%E4%B9%8Bpath/"/>
+    <id>http://yoursite.com/2017/11/20/node之path/</id>
+    <published>2017-11-20T02:22:09.000Z</published>
+    <updated>2017-11-20T03:08:29.638Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="node-path-模块"><a href="#node-path-模块" class="headerlink" title="node path 模块"></a>node path 模块</h2><h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</span><br></pre></td></tr></table></figure><h3 id="path-normalize-path"><a href="#path-normalize-path" class="headerlink" title="path.normalize(path)"></a>path.normalize(path)</h3><blockquote><ul><li>路径解析,得到规范化的路径格式        </li><li>window系统,分隔符 ‘ \ ‘        </li><li>Unix系统, 分隔符  ‘ / ‘        </li><li>.. 返回上一级       </li><li>\ 与 // 统一被替换     </li></ul></blockquote><h3 id="path-join-path1-path2-…-pathn"><a href="#path-join-path1-path2-…-pathn" class="headerlink" title="path.join([path1],[path2]…[pathn])"></a>path.join([path1],[path2]…[pathn])</h3><blockquote><p>  结合路径 合并路径<br>     注意: 返回的路径的最后并不会带有目录分隔符</p></blockquote><h3 id="path-resolve-path"><a href="#path-resolve-path" class="headerlink" title="path.resolve(path)"></a>path.resolve(path)</h3><blockquote><p> 以应用程序为起点,解析出一个绝对路径</p></blockquote><h3 id="path-relative-from-to"><a href="#path-relative-from-to" class="headerlink" title="path.relative(from,to)"></a>path.relative(from,to)</h3><blockquote><p>获取两路径之间的相对关系</p></blockquote><h3 id="path-dirname-path"><a href="#path-dirname-path" class="headerlink" title="path.dirname(path)"></a>path.dirname(path)</h3><blockquote><p>获取路径中的目录名<br>  注意 返回的字符串的最后并没有路径分隔符</p></blockquote><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(path.dirname(<span class="string">'a/b/c/d/me.png'</span>));</span><br><span class="line"><span class="comment">// a/b/c/d</span></span><br></pre></td></tr></table></figure><h3 id="path-basename-path-ext"><a href="#path-basename-path-ext" class="headerlink" title="path.basename(path,[ext])"></a>path.basename(path,[ext])</h3><blockquote><p>获取路径中的文件名<br>    后缀是可选的,使用’.ext’的方式来匹配则返回值中不包括后缀名<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(path.basename(<span class="string">'a/b/c/d/me.png'</span>,<span class="string">'.png'</span>));</span><br><span class="line"><span class="comment">// me</span></span><br></pre></td></tr></table></figure></p></blockquote><h3 id="path-extname-path"><a href="#path-extname-path" class="headerlink" title="path.extname(path)"></a>path.extname(path)</h3><blockquote><p>获取路径中的扩展名 如果没有 则返回空</p></blockquote><h3 id="path-sep"><a href="#path-sep" class="headerlink" title="path.sep"></a>path.sep</h3><blockquote><p>属性<br>返回操作系统中的文件分隔符<br>window 下 返回 ‘ \\ ‘<br>Unix下 返回 ‘ / ‘</p></blockquote><h3 id="path-delimiter"><a href="#path-delimiter" class="headerlink" title="path.delimiter"></a>path.delimiter</h3><blockquote><p>属性    返回操作系统中的目录分隔符<br>window 下 返回 ‘ ; ‘<br>Unix 下 返回 ‘ : ‘  </p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;node-path-模块&quot;&gt;&lt;a href=&quot;#node-path-模块&quot; class=&quot;headerlink&quot; title=&quot;node path 模块&quot;&gt;&lt;/a&gt;node path 模块&lt;/h2&gt;&lt;h3 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;
+      
+    
+    </summary>
+    
+      <category term="note" scheme="http://yoursite.com/categories/note/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>works/haha.md</title>
+    <link href="http://yoursite.com/2017/11/15/works-haha-md/"/>
+    <id>http://yoursite.com/2017/11/15/works-haha-md/</id>
+    <published>2017-11-15T02:04:07.000Z</published>
+    <updated>2017-11-15T02:04:07.176Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>haha</title>
+    <link href="http://yoursite.com/2017/11/15/haha-1/"/>
+    <id>http://yoursite.com/2017/11/15/haha-1/</id>
+    <published>2017-11-15T02:03:20.000Z</published>
+    <updated>2017-11-15T02:03:21.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>haha</title>
+    <link href="http://yoursite.com/2017/11/14/haha/"/>
+    <id>http://yoursite.com/2017/11/14/haha/</id>
+    <published>2017-11-14T09:49:48.000Z</published>
+    <updated>2017-11-18T09:02:29.563Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="这是一个测试页面"><a href="#这是一个测试页面" class="headerlink" title="这是一个测试页面"></a>这是一个测试页面</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">const</span> aa = <span class="number">999</span>;</span><br><span class="line">    <span class="built_in">console</span>.log(aaa)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;这是一个测试页面&quot;&gt;&lt;a href=&quot;#这是一个测试页面&quot; class=&quot;headerlink&quot; title=&quot;这是一个测试页面&quot;&gt;&lt;/a&gt;这是一个测试页面&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2017/11/12/hello-world/"/>
+    <id>http://yoursite.com/2017/11/12/hello-world/</id>
+    <published>2017-11-12T08:16:31.742Z</published>
+    <updated>2017-11-12T08:16:31.789Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
