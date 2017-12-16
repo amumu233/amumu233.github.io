@@ -94,7 +94,7 @@
 				        
 							<li><a href="/archives">所有文章</a></li>
 				        
-							<li><a href="/categories">作品展示</a></li>
+							<li><a href="/categories/note">作品展示</a></li>
 				        
 						</ul>
 					</nav>
@@ -108,7 +108,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						
+						<a href="/tags/node/" style="font-size: 10px;">node</a> <a href="/tags/path/" style="font-size: 10px;">path</a>
 					</div>
 				</section>
 				
@@ -151,7 +151,7 @@
 		        
 					<li><a href="/archives">所有文章</a></li>
 		        
-					<li><a href="/categories">作品展示</a></li>
+					<li><a href="/categories/note">作品展示</a></li>
 		        
 		        <div class="clearfix"></div>
 				</ul>
@@ -166,10 +166,10 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-node之path" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-node之path模块" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/11/20/node之path/" class="article-date">
+      <a href="/2017/11/20/node之path模块/" class="article-date">
   	<time datetime="2017-11-20T02:22:09.000Z" itemprop="datePublished">2017-11-20</time>
 </a>
     </div>
@@ -183,8 +183,8 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/20/node之path/">
-        node之path
+      <a class="article-title" href="/2017/11/20/node之path模块/">
+        node之path模块
         
       </a>
     </h1>
@@ -195,48 +195,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="node-path-模块"><a href="#node-path-模块" class="headerlink" title="node path 模块"></a>node path 模块</h2><h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</span><br></pre></td></tr></table></figure>
-<h3 id="path-normalize-path"><a href="#path-normalize-path" class="headerlink" title="path.normalize(path)"></a>path.normalize(path)</h3><blockquote>
-<ul>
-<li>路径解析,得到规范化的路径格式        </li>
-<li>window系统,分隔符 ‘ \ ‘        </li>
-<li>Unix系统, 分隔符  ‘ / ‘        </li>
-<li>.. 返回上一级       </li>
-<li>\ 与 // 统一被替换     </li>
-</ul>
-</blockquote>
-<h3 id="path-join-path1-path2-…-pathn"><a href="#path-join-path1-path2-…-pathn" class="headerlink" title="path.join([path1],[path2]…[pathn])"></a>path.join([path1],[path2]…[pathn])</h3><blockquote>
-<p>  结合路径 合并路径<br>     注意: 返回的路径的最后并不会带有目录分隔符</p>
-</blockquote>
-<h3 id="path-resolve-path"><a href="#path-resolve-path" class="headerlink" title="path.resolve(path)"></a>path.resolve(path)</h3><blockquote>
-<p> 以应用程序为起点,解析出一个绝对路径</p>
-</blockquote>
-<h3 id="path-relative-from-to"><a href="#path-relative-from-to" class="headerlink" title="path.relative(from,to)"></a>path.relative(from,to)</h3><blockquote>
-<p>获取两路径之间的相对关系</p>
-</blockquote>
-<h3 id="path-dirname-path"><a href="#path-dirname-path" class="headerlink" title="path.dirname(path)"></a>path.dirname(path)</h3><blockquote>
-<p>获取路径中的目录名<br>  注意 返回的字符串的最后并没有路径分隔符</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(path.dirname(<span class="string">'a/b/c/d/me.png'</span>));</span><br><span class="line"><span class="comment">// a/b/c/d</span></span><br></pre></td></tr></table></figure>
-<h3 id="path-basename-path-ext"><a href="#path-basename-path-ext" class="headerlink" title="path.basename(path,[ext])"></a>path.basename(path,[ext])</h3><blockquote>
-<p>获取路径中的文件名<br>    后缀是可选的,使用’.ext’的方式来匹配则返回值中不包括后缀名<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(path.basename(<span class="string">'a/b/c/d/me.png'</span>,<span class="string">'.png'</span>));</span><br><span class="line"><span class="comment">// me</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h3 id="path-extname-path"><a href="#path-extname-path" class="headerlink" title="path.extname(path)"></a>path.extname(path)</h3><blockquote>
-<p>获取路径中的扩展名 如果没有 则返回空</p>
-</blockquote>
-<h3 id="path-sep"><a href="#path-sep" class="headerlink" title="path.sep"></a>path.sep</h3><blockquote>
-<p>属性<br>返回操作系统中的文件分隔符<br>window 下 返回 ‘ \\ ‘<br>Unix下 返回 ‘ / ‘</p>
-</blockquote>
-<h3 id="path-delimiter"><a href="#path-delimiter" class="headerlink" title="path.delimiter"></a>path.delimiter</h3><blockquote>
-<p>属性    返回操作系统中的目录分隔符<br>window 下 返回 ‘ ; ‘<br>Unix 下 返回 ‘ : ‘  </p>
-</blockquote>
-
+        <h2 id="node-path-模块"><a href="#node-path-模块" class="headerlink" title="node path 模块"></a>node path 模块</h2><p><img src="/2017/11/20/node之path模块/logo.svg" alt="logo"></p>
+<p>path 模块的方法和属性的 解释 及 简单示例</p>
       
     </div>
     
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node/">node</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/path/">path</a></li></ul>
+	</div>
+
       
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/note/">note</a>
@@ -247,230 +217,9 @@
       <div class="clearfix"></div>
     </div>
       
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-works-haha-md" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/11/15/works-haha-md/" class="article-date">
-  	<time datetime="2017-11-15T02:04:07.000Z" itemprop="datePublished">2017-11-15</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/15/works-haha-md/">
-        works/haha.md
-        
-      </a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-      
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="works-haha-1" class="article article-type-works" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/11/15/haha-1/" class="article-date">
-  	<time datetime="2017-11-15T02:03:20.000Z" itemprop="datePublished">2017-11-15</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/15/haha-1/">
-        haha
-        
-      </a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-      
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-haha" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/11/14/haha/" class="article-date">
-  	<time datetime="2017-11-14T09:49:48.000Z" itemprop="datePublished">2017-11-14</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/14/haha/">
-        haha
-        
-      </a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="这是一个测试页面"><a href="#这是一个测试页面" class="headerlink" title="这是一个测试页面"></a>这是一个测试页面</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">const</span> aa = <span class="number">999</span>;</span><br><span class="line">    <span class="built_in">console</span>.log(aaa)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-      
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/11/12/hello-world/" class="article-date">
-  	<time datetime="2017-11-12T08:16:31.742Z" itemprop="datePublished">2017-11-12</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/12/hello-world/">
-        Hello World
-        
-      </a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
+        <p class="article-more-link">
+          <a  href="/2017/11/20/node之path模块/#more">more >></a>
+        </p>
       
     
   </div>
