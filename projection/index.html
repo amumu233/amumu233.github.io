@@ -6,18 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Amumu233</title>
+  <title>作品介绍 | Amumu233</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="---  layout: post  slug: &quot;photos&quot;  title: &quot;相册&quot;  noDate: &quot;true&quot;  comments: &quot;false&quot;  ---                (function () {         var loadScript = function (path) {             var $script = document.creat">
+  <meta name="description" content="项目名称:                 知乎日报                                           项目简介:                 其诞生的意义是控制文字的对齐与显示的，从其属性名上就可以看出来。从其渲染与解析上来看，其主要是用来控制inline水平元素">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Amumu233">
+<meta property="og:title" content="作品介绍">
 <meta property="og:url" content="http://yoursite.com/projection/index.html">
 <meta property="og:site_name" content="Amumu233">
-<meta property="og:description" content="---  layout: post  slug: &quot;photos&quot;  title: &quot;相册&quot;  noDate: &quot;true&quot;  comments: &quot;false&quot;  ---                (function () {         var loadScript = function (path) {             var $script = document.creat">
-<meta property="og:updated_time" content="2018-01-09T02:01:18.625Z">
+<meta property="og:description" content="项目名称:                 知乎日报                                           项目简介:                 其诞生的意义是控制文字的对齐与显示的，从其属性名上就可以看出来。从其渲染与解析上来看，其主要是用来控制inline水平元素">
+<meta property="og:image" content="http://yoursite.com/projection/images/1.jpg">
+<meta property="og:image" content="http://yoursite.com/projection/images/2.jpg">
+<meta property="og:image" content="http://yoursite.com/projection/images/3.jpg">
+<meta property="og:updated_time" content="2018-01-09T09:21:45.431Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Amumu233">
-<meta name="twitter:description" content="---  layout: post  slug: &quot;photos&quot;  title: &quot;相册&quot;  noDate: &quot;true&quot;  comments: &quot;false&quot;  ---                (function () {         var loadScript = function (path) {             var $script = document.creat">
+<meta name="twitter:title" content="作品介绍">
+<meta name="twitter:description" content="项目名称:                 知乎日报                                           项目简介:                 其诞生的意义是控制文字的对齐与显示的，从其属性名上就可以看出来。从其渲染与解析上来看，其主要是用来控制inline水平元素">
+<meta name="twitter:image" content="http://yoursite.com/projection/images/1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Amumu233" type="application/atom+xml">
   
@@ -153,22 +157,58 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-undefined" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-photos" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      作品介绍
+    </h1>
+  
+
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        --- 
-layout: post 
-slug: "photos" 
-title: "相册" 
-noDate: "true" 
-comments: "false" 
----
+        
+
 <link rel="stylesheet" href="./projection.css">
 
 <div class="projection">
-    
+    <div class="list">
+        <div class="item">
+            <div class="container title">
+                <span class="label">项目名称:</span>
+                <div class="detail">知乎日报</div>
+            </div>
+            <div class="container shortIntro">
+                <span class="label">项目简介:</span>
+                <p class="detail">其诞生的意义是控制文字的对齐与显示的，从其属性名上就可以看出来。从其渲染与解析上来看，其主要是用来控制inline水平元素或inline-block元素的对齐与显示的，例如嵌套行内标签的文字、图片、input表单控件等；而对block水平的元素是没有作用的。</p>
+            </div>
+            <div class="container code">
+                <span class="label">代码托管:</span>
+                <div class="detail"><a href="">github</a></div>
+            </div>
+            <div class="container images">
+                <span class="label">项目图片:</span>
+                <div class="detail thumb">
+                    <div class="image">
+                        <img src="/projection/./images/1.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="/projection/./images/2.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="/projection/./images/3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
@@ -183,9 +223,8 @@ comments: "false"
         }, 0)
     })();
     var items;
-    $.get('./projection.json',function(){
-        console.log(data);
-    })
+    var html = '';
+    
 </script>
       
 
@@ -296,16 +335,6 @@ comments: "false"
 
 
 
-  
-  
-  
-
-  
-
-  
-
-  
-
 
           </div>
         </div>
@@ -397,15 +426,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Weapp</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">node</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">path</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Weapp</a>
               </li>
              
               <li class="article-tag-list-item">

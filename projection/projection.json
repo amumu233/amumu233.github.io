@@ -1,1 +1,1 @@
-{"list":[{"title":"知乎日报web版","thumb":"","url":{"see":"","code":""}}]}
+{"list":[{"title":"知乎日报web版","thumb":"./images/2.jpg","url":{"see":"http://amumu233.duapp.com","code":"https://github.com/amumu233/zhihuDaily"},"shortIntro":"React搭建的SPA-知乎日报应用,结合redux管理应用状态,redux-saga处理异步action,页面UI部分使用antd组件,部分自己搭建;仅作react学习之用"}]}
