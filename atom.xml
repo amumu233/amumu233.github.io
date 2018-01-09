@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-20T09:01:05.697Z</updated>
+  <updated>2017-12-17T04:12:32.214Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信小程序知乎日报</title>
+    <link href="http://yoursite.com/2017/12/17/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5/"/>
+    <id>http://yoursite.com/2017/12/17/微信小程序知乎日报/</id>
+    <published>2017-12-17T03:56:37.000Z</published>
+    <updated>2017-12-17T04:12:32.214Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;源码&quot;&gt;&lt;a href=&quot;#源码&quot; class=&quot;headerlink&quot; title=&quot;源码&quot;&gt;&lt;/a&gt;源码&lt;/h2&gt;
+      
+    
+    </summary>
+    
+      <category term="作品" scheme="http://yoursite.com/categories/%E4%BD%9C%E5%93%81/"/>
+    
+    
+      <category term="Weapp" scheme="http://yoursite.com/tags/Weapp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>知乎日报react学习版</title>
+    <link href="http://yoursite.com/2017/12/17/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5react%E5%AD%A6%E4%B9%A0%E7%89%88/"/>
+    <id>http://yoursite.com/2017/12/17/知乎日报react学习版/</id>
+    <published>2017-12-17T02:01:50.000Z</published>
+    <updated>2017-12-17T03:36:23.791Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="在线预览"><a href="#在线预览" class="headerlink" title="在线预览"></a>在线预览</h3><ul><li>电脑预览: <a href="https://amumu233.duapp.com" target="_blank" rel="external">知乎日报学习版</a>,开发者手机模式下浏览效果更佳</li><li>手机预览: 手机浏览器输入网址: amumu233.duapp.com, 或者扫描下面的二维码<br> <img src="/2017/12/17/知乎日报react学习版/erweima.png" alt="知乎日报学习版"></li></ul><h3 id="源码"><a href="#源码" class="headerlink" title="源码"></a><a href="https://github.com/amumu233/zhihuDaily" target="_blank" rel="external">源码</a></h3><a id="more"></a><h3 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h3><blockquote><p>react + react-redux + redux-saga + webpack + react-router + ES6 + express</p></blockquote><h3 id="项目脚手架"><a href="#项目脚手架" class="headerlink" title="项目脚手架"></a>项目脚手架</h3><ul><li>create-react-app</li></ul><h3 id="API"><a href="#API" class="headerlink" title="API"></a>API</h3><blockquote><p>node express 搭建服务器,request模块请求知乎日报的API</p></blockquote><h3 id="项目目录"><a href="#项目目录" class="headerlink" title="项目目录"></a>项目目录</h3><blockquote><p><img src="/2017/12/17/知乎日报react学习版/mulu.jpg" alt="目录"></p></blockquote><h3 id="项目效果"><a href="#项目效果" class="headerlink" title="项目效果"></a>项目效果</h3><p><img src="/2017/12/17/知乎日报react学习版/1.jpg" alt="目录"><br><img src="/2017/12/17/知乎日报react学习版/2.jpg" alt="目录"><br><img src="/2017/12/17/知乎日报react学习版/3.png" alt="目录"></p><h3 id="个人总结"><a href="#个人总结" class="headerlink" title="个人总结"></a>个人总结</h3><blockquote><ul><li>页面的总体外观是参考知乎日报APP,<a href="http://daily.zhihu.com/" target="_blank" rel="external">官方下载地址</a></li><li>react的工作只是渲染UI,需要其他的模块来配合使用</li><li>项目中关于webpack的应用,大部分都是基于脚手架自己附带的,自己只是添加了一点,希望能有一个系统的webpack的学习</li><li>经验不足,对项目的总体把控很差,总是需要什么,才去找什么学什么.</li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;在线预览&quot;&gt;&lt;a href=&quot;#在线预览&quot; class=&quot;headerlink&quot; title=&quot;在线预览&quot;&gt;&lt;/a&gt;在线预览&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;电脑预览: &lt;a href=&quot;https://amumu233.duapp.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知乎日报学习版&lt;/a&gt;,开发者手机模式下浏览效果更佳&lt;/li&gt;
+&lt;li&gt;手机预览: 手机浏览器输入网址: amumu233.duapp.com, 或者扫描下面的二维码&lt;br&gt; &lt;img src=&quot;/2017/12/17/知乎日报react学习版/erweima.png&quot; alt=&quot;知乎日报学习版&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;源码&quot;&gt;&lt;a href=&quot;#源码&quot; class=&quot;headerlink&quot; title=&quot;源码&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/amumu233/zhihuDaily&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;源码&lt;/a&gt;&lt;/h3&gt;
+    
+    </summary>
+    
+      <category term="作品" scheme="http://yoursite.com/categories/%E4%BD%9C%E5%93%81/"/>
+    
+    
+      <category term="React" scheme="http://yoursite.com/tags/React/"/>
+    
+      <category term="Redux" scheme="http://yoursite.com/tags/Redux/"/>
+    
+      <category term="webpack" scheme="http://yoursite.com/tags/webpack/"/>
+    
+  </entry>
   
   <entry>
     <title>node之path模块</title>
