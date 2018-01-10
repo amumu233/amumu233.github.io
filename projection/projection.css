@@ -29,15 +29,29 @@ li {
 }
 .projection .list .item .images .image {
     float: left;
+    box-sizing: border-box;
     width: 25%;
+    background: #cccccc;
     padding-bottom: 25%;
     position: relative;
     overflow: hidden;
     outline: 1px solid #ffffff;
+    transition: all .5s;
+    transform: scale(.9,.9);
+    box-shadow: 0px 5px 10px #000000;
+}
+.projection .list .item .images .image:hover {
+    transform: scale(1,1);
+    box-shadow: none;
 }
 .projection .list .item .images .image img {
     width: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
 a.see-link[href="#"]{
     display: none;

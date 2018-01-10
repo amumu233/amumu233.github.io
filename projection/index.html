@@ -14,7 +14,7 @@
 <meta property="og:url" content="http://yoursite.com/projection/index.html">
 <meta property="og:site_name" content="Amumu233">
 <meta property="og:description" content="--- layout: post slug: &quot;projections&quot; title: &quot;作品集&quot; noDate: &quot;true&quot; comments: &quot;false&quot; ---                             // (function () {     //     var loadScript = function (path) {     //         var $s">
-<meta property="og:updated_time" content="2018-01-10T10:26:06.304Z">
+<meta property="og:updated_time" content="2018-01-10T11:05:28.045Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Amumu233">
 <meta name="twitter:description" content="--- layout: post slug: &quot;projections&quot; title: &quot;作品集&quot; noDate: &quot;true&quot; comments: &quot;false&quot; ---                             // (function () {     //     var loadScript = function (path) {     //         var $s">
@@ -232,7 +232,7 @@ for(var i = 0;i < itemList.length;i++){
 
     
 
-    let images = itemList[i].images;
+    var images = itemList[i].images;
     var thumbHtml = `<div class="images"  data-title="${itemList[i].title}">`;
     for (var j = 0;j<images.length;j++){
         thumbHtml += `<div class="image">
@@ -255,16 +255,26 @@ for(var i = 0;i < itemList.length;i++){
                         <a class="see-link" href="${itemList[i].see}" target="_blank">效果预览</a>
                     </div>
                 </div>
+                <div class="webui-popover-content" style="font-size: 14px;">
+                    <div class="container shortIntro">
+                        <span class="label">项目简介:</span>
+                        <p class="detail">${itemList[i].shortIntro}</p>
+                    </div>
+                    <div class="container code">
+                        <a class="code-link" href="${itemList[i].code}" target="_blank">查看代码</a>
+                        <a class="see-link" href="${itemList[i].see}" target="_blank">效果预览</a>
+                    </div>
+                </div>
             </div>`
 }
 
 $('.projection .list').html(html);
 $('.images').webuiPopover({ 
     trigger: 'hover', 
-    style: 'inverse', 
+    // style: 'inverse', 
     closeable: true, 
     animation: 'pop', 
-    arrow: true, 
+    arrow: false, 
     delay: { show: null, hidden: null },
     placement: 'left',
 });
@@ -480,6 +490,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Weapp</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
@@ -489,10 +503,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">webpack</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Weapp</a>
               </li>
              
               <li class="article-tag-list-item">
