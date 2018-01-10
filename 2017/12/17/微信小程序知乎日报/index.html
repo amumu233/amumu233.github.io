@@ -8,17 +8,22 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>微信小程序知乎日报 | Amumu233</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="源码">
+  <meta name="description" content="仅作小程序开发学习,不涉及商用 目标功能 [X]主页 轮播图 : \ 内容长列表: \ 下拉无限加载 : bindscrolltolower   [X]主题列表 [X]主题详情 [X]文章阅读 wxParse处理HTML片段">
 <meta name="keywords" content="Weapp">
 <meta property="og:type" content="article">
 <meta property="og:title" content="微信小程序知乎日报">
 <meta property="og:url" content="http://yoursite.com/2017/12/17/微信小程序知乎日报/index.html">
 <meta property="og:site_name" content="Amumu233">
-<meta property="og:description" content="源码">
-<meta property="og:updated_time" content="2017-12-17T04:12:32.214Z">
+<meta property="og:description" content="仅作小程序开发学习,不涉及商用 目标功能 [X]主页 轮播图 : \ 内容长列表: \ 下拉无限加载 : bindscrolltolower   [X]主题列表 [X]主题详情 [X]文章阅读 wxParse处理HTML片段">
+<meta property="og:image" content="http://yoursite.com/2017/12/17/微信小程序知乎日报/home.jpg">
+<meta property="og:image" content="http://yoursite.com/2017/12/17/微信小程序知乎日报/themeList.jpg">
+<meta property="og:image" content="http://yoursite.com/2017/12/17/微信小程序知乎日报/themeDetail.jpg">
+<meta property="og:image" content="http://yoursite.com/2017/12/17/微信小程序知乎日报/read.jpg">
+<meta property="og:updated_time" content="2018-01-10T10:14:07.966Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序知乎日报">
-<meta name="twitter:description" content="源码">
+<meta name="twitter:description" content="仅作小程序开发学习,不涉及商用 目标功能 [X]主页 轮播图 : \ 内容长列表: \ 下拉无限加载 : bindscrolltolower   [X]主题列表 [X]主题详情 [X]文章阅读 wxParse处理HTML片段">
+<meta name="twitter:image" content="http://yoursite.com/2017/12/17/微信小程序知乎日报/home.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Amumu233" type="application/atom+xml">
   
@@ -47,7 +52,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="null" class="js-avatar">
+			<img src="/assets/amumu.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">amumu233</a></h1>
@@ -59,7 +64,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
+				<li><a href="/projection">作品集</a></li>
 	        
 			</ul>
 		</nav>
@@ -67,10 +72,6 @@
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -105,7 +106,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="null" class="js-avatar">
+				<img src="/assets/amumu.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">amumu233</h1>
@@ -139,7 +140,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 50%"><a href="/projection">作品集</a></li>
 		        
 				</ul>
 			</nav>
@@ -174,7 +175,31 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h2>
+        <hr>
+<p>仅作小程序开发学习,不涉及商用</p>
+<h3 id="目标功能"><a href="#目标功能" class="headerlink" title="目标功能"></a>目标功能</h3><ul>
+<li>[X]主页<ul>
+<li>轮播图 : \<swiper\></swiper\></li>
+<li>内容长列表: \<scroll-view></scroll-view></li>
+<li>下拉无限加载 : bindscrolltolower</li>
+</ul>
+</li>
+<li>[X]主题列表</li>
+<li>[X]主题详情</li>
+<li>[X]文章阅读<ul>
+<li>wxParse处理HTML片段</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<h3 id="API-WIKI"><a href="#API-WIKI" class="headerlink" title="API WIKI"></a>API WIKI</h3><p><a href="https://github.com/amumu233/zhihuDaily/wiki" target="_blank" rel="external">知乎日报API</a></p>
+<h3 id="项目预览"><a href="#项目预览" class="headerlink" title="项目预览"></a>项目预览</h3><h4 id="代码地址github"><a href="#代码地址github" class="headerlink" title="代码地址github"></a>代码地址<a href="https://github.com/amumu233/WeappZhihuDaily" target="_blank" rel="external">github</a></h4><h4 id="screenshots"><a href="#screenshots" class="headerlink" title="screenshots"></a>screenshots</h4><ul>
+<li>主页<br><img src="/2017/12/17/微信小程序知乎日报/home.jpg" alt="主页"></li>
+<li>主题列表<br><img src="/2017/12/17/微信小程序知乎日报/themeList.jpg" alt="主题列表"></li>
+<li>主题详情<br><img src="/2017/12/17/微信小程序知乎日报/themeDetail.jpg" alt="主题详情"></li>
+<li>文章阅读<br><img src="/2017/12/17/微信小程序知乎日报/read.jpg" alt="readPost"></li>
+</ul>
+
       
 
       
@@ -187,7 +212,7 @@
             <span class="tooltip-content">
               <span class="tooltip-text">
                 <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>分享===快乐<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
                     
@@ -289,6 +314,15 @@
   
 <nav id="article-nav">
   
+    <a href="/2018/01/10/追书神器/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          追书神器
+        
+      </div>
+    </a>
+  
   
     <a href="/2017/12/17/知乎日报react学习版/" id="article-nav-older" class="article-nav-link-wrap">
       <div class="article-nav-title">知乎日报react学习版</div>
@@ -378,25 +412,17 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -417,6 +443,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">node</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">path</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
@@ -429,15 +463,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">node</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">path</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Weapp</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">react</a>
               </li>
             
             <div class="clearfix"></div>
@@ -484,43 +514,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">无论阿木木在寻找什么 &lt;br/&gt; 是赎罪&lt;br/&gt; 还是亲人&lt;br/&gt;抑或只是单纯的善意之举&lt;br/&gt;  有一件事是像晨风西吹一样确定的：&lt;br/&gt;&lt;strong&gt;他依然还在寻找&lt;/strong&gt;。</div>
   	  	
     	</section>
     

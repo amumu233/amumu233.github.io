@@ -1,5 +1,5 @@
 .projection {
-
+    font-family: 'microsoft yahei'
 }
 ul {
     margin: 0;
@@ -12,49 +12,46 @@ li {
     list-style: none;
 }
 .projection .list .item {
-    border: 1px solid #111;
     padding: 10px;
+    border-bottom: 3px solid #333333;
 }
 .projection .list .item p{
+    text-indent: 2em;
     margin: 0;
     word-break: break-all;
 }
-.projection .list .item .container{
+
+.projection .webui-popover-content{
+    display: none;
+}
+.projection .list .item .images {
     overflow: hidden;
 }
-.projection .list .item .container .label{
-    float: left;
-    width: 100px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #333333;
-    /* display: inline-block; */
-    text-align: justify;
-}
-.projection .list .item .container .label::after{
-    content: '';
-    width: 100%;
-}
-.projection .list .item .container .detail{
-    padding-left: 100px;
-}
-.projection .list .item .images .label {
-    float: none;
-}
-.projection .list .item .images .detail {
-    width: 100%;
-    padding: 0;
-}
-.projection .list .item .images .detail .image {
+.projection .list .item .images .image {
     float: left;
     width: 25%;
     padding-bottom: 25%;
     position: relative;
     overflow: hidden;
-    background-color: #cccccc;
     outline: 1px solid #ffffff;
 }
-.projection .list .item .images .detail .image img {
-    position: absolute;
+.projection .list .item .images .image img {
     width: 100%;
+    position: absolute;
+}
+a.see-link[href="#"]{
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    .projection .webui-popover-content{
+        display: block;
+    }
+    .projection .list .item .images .image {
+        float: left;
+        width: 50%;
+        padding-bottom: 50%;
+        position: relative;
+        overflow: hidden;
+        outline: 1px solid #ffffff;
+    }
 }

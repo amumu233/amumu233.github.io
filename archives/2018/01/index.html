@@ -6,21 +6,14 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>node之path模块 | Amumu233</title>
+  <title>Archives: 2018/1 | Amumu233</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="node path 模块 path 模块的方法和属性的 解释 及 简单示例">
-<meta name="keywords" content="node,path">
-<meta property="og:type" content="article">
-<meta property="og:title" content="node之path模块">
-<meta property="og:url" content="http://yoursite.com/2017/11/20/node之path模块/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Amumu233">
+<meta property="og:url" content="http://yoursite.com/archives/2018/01/index.html">
 <meta property="og:site_name" content="Amumu233">
-<meta property="og:description" content="node path 模块 path 模块的方法和属性的 解释 及 简单示例">
-<meta property="og:image" content="http://yoursite.com/2017/11/20/node之path模块/logo.svg">
-<meta property="og:updated_time" content="2017-11-20T09:01:05.697Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="node之path模块">
-<meta name="twitter:description" content="node path 模块 path 模块的方法和属性的 解释 及 简单示例">
-<meta name="twitter:image" content="http://yoursite.com/2017/11/20/node之path模块/logo.svg">
+<meta name="twitter:title" content="Amumu233">
   
     <link rel="alternative" href="/atom.xml" title="Amumu233" type="application/atom+xml">
   
@@ -152,223 +145,71 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-node之path模块" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      node之path模块
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2018" class="archive-year">2018</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2018/01/10/追书神器/" class="archive-article-date">
+  	<time datetime="2018-01-10T10:15:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-01-10</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2018/01/10/追书神器/">追书神器</a>
     </h1>
   
 
-        
-        <a href="/2017/11/20/node之path模块/" class="archive-article-date">
-  	<time datetime="2017-11-20T02:22:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-11-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="node-path-模块"><a href="#node-path-模块" class="headerlink" title="node path 模块"></a>node path 模块</h2><p><img src="/2017/11/20/node之path模块/logo.svg" alt="logo"></p>
-<p>path 模块的方法和属性的 解释 及 简单示例</p>
-<a id="more"></a>
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</span><br></pre></td></tr></table></figure>
-<h3 id="path-normalize-path"><a href="#path-normalize-path" class="headerlink" title="path.normalize(path)"></a>path.normalize(path)</h3><blockquote>
-<ul>
-<li>路径解析,得到规范化的路径格式        </li>
-<li>window系统,分隔符 ‘ \ ‘        </li>
-<li>Unix系统, 分隔符  ‘ / ‘        </li>
-<li>.. 返回上一级       </li>
-<li>\ 与 // 统一被替换     </li>
-</ul>
-</blockquote>
-<h3 id="path-join-path1-path2-…-pathn"><a href="#path-join-path1-path2-…-pathn" class="headerlink" title="path.join([path1],[path2]…[pathn])"></a>path.join([path1],[path2]…[pathn])</h3><blockquote>
-<p>  结合路径 合并路径<br>     注意: 返回的路径的最后并不会带有目录分隔符</p>
-</blockquote>
-<h3 id="path-resolve-path"><a href="#path-resolve-path" class="headerlink" title="path.resolve(path)"></a>path.resolve(path)</h3><blockquote>
-<p> 以应用程序为起点,解析出一个绝对路径</p>
-</blockquote>
-<h3 id="path-relative-from-to"><a href="#path-relative-from-to" class="headerlink" title="path.relative(from,to)"></a>path.relative(from,to)</h3><blockquote>
-<p>获取两路径之间的相对关系</p>
-</blockquote>
-<h3 id="path-dirname-path"><a href="#path-dirname-path" class="headerlink" title="path.dirname(path)"></a>path.dirname(path)</h3><blockquote>
-<p>获取路径中的目录名<br>  注意 返回的字符串的最后并没有路径分隔符</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(path.dirname(<span class="string">'a/b/c/d/me.png'</span>));</span><br><span class="line"><span class="comment">// a/b/c/d</span></span><br></pre></td></tr></table></figure>
-<h3 id="path-basename-path-ext"><a href="#path-basename-path-ext" class="headerlink" title="path.basename(path,[ext])"></a>path.basename(path,[ext])</h3><blockquote>
-<p>获取路径中的文件名<br>    后缀是可选的,使用’.ext’的方式来匹配则返回值中不包括后缀名<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(path.basename(<span class="string">'a/b/c/d/me.png'</span>,<span class="string">'.png'</span>));</span><br><span class="line"><span class="comment">// me</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h3 id="path-extname-path"><a href="#path-extname-path" class="headerlink" title="path.extname(path)"></a>path.extname(path)</h3><blockquote>
-<p>获取路径中的扩展名 如果没有 则返回空</p>
-</blockquote>
-<h3 id="path-sep"><a href="#path-sep" class="headerlink" title="path.sep"></a>path.sep</h3><blockquote>
-<p>属性<br>返回操作系统中的文件分隔符<br>window 下 返回 ‘ \\ ‘<br>Unix下 返回 ‘ / ‘</p>
-</blockquote>
-<h3 id="path-delimiter"><a href="#path-delimiter" class="headerlink" title="path.delimiter"></a>path.delimiter</h3><blockquote>
-<p>属性    返回操作系统中的目录分隔符<br>window 下 返回 ‘ ; ‘<br>Unix 下 返回 ‘ : ‘  </p>
-</blockquote>
-
-      
-
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>分享===快乐<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">node</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">path</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">react</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+          
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/note//" class="article-tag-list-link color5">note</a>
+        			<a href="/categories/projection//" class="article-tag-list-link color1">projection</a>
         		</li>
       		
 		</ul>
 	</div>
 
 
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2017/11/20/node之path模块/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2017/12/17/知乎日报react学习版/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          知乎日报react学习版
-        
-      </div>
-    </a>
   
   
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -391,8 +232,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-17T04:12:32.214Z</updated>
+  <updated>2018-01-10T10:26:46.106Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,59 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>微信小程序知乎日报</title>
-    <link href="http://yoursite.com/2017/12/17/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5/"/>
-    <id>http://yoursite.com/2017/12/17/微信小程序知乎日报/</id>
-    <published>2017-12-17T03:56:37.000Z</published>
-    <updated>2017-12-17T04:12:32.214Z</updated>
+    <title>追书神器</title>
+    <link href="http://yoursite.com/2018/01/10/%E8%BF%BD%E4%B9%A6%E7%A5%9E%E5%99%A8/"/>
+    <id>http://yoursite.com/2018/01/10/追书神器/</id>
+    <published>2018-01-10T10:15:01.000Z</published>
+    <updated>2018-01-10T10:26:46.106Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h2>]]></content>
+    <content type="html"><![CDATA[<p>纯属个人学习react,不用与商业用途    </p><h3 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h3><blockquote><p>react + react-router-dom + redux + webpack </p></blockquote><h3 id="功能实现"><a href="#功能实现" class="headerlink" title="功能实现"></a>功能实现</h3><ul><li>路由: react-router-redux    </li><li>状态管理:  redux + react-redux + redux-thunk(解决异步的action)       </li><li>代码分割(按需加载):  bundle-loader + Bundle组件 </li></ul><h3 id="目标功能"><a href="#目标功能" class="headerlink" title="目标功能"></a>目标功能</h3><ul><li>主页      </li><li>精选     </li><li>分类     </li><li>书单     </li><li>排行     </li><li>书籍详情     </li><li>书单详情     </li><li>阅读书籍  </li></ul><h3 id="项目运行"><a href="#项目运行" class="headerlink" title="项目运行"></a>项目运行</h3><ul><li>git clone git clone <a href="https://github.com/amumu233/zhuishushenqi.git" target="_blank" rel="external">https://github.com/amumu233/zhuishushenqi.git</a>    </li><li>cd zhuishushenqi    </li><li>npm install      </li><li>npm start      </li><li>访问: <a href="http://localhost:18080" target="_blank" rel="external">http://localhost:18080</a>    </li></ul><h3 id="追书神器API接口文档"><a href="#追书神器API接口文档" class="headerlink" title="追书神器API接口文档"></a>追书神器API接口文档</h3><p><a href="https://github.com/amumu233/zhuishushenqi/wiki/API-%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3" target="_blank" rel="external">追书神器API接口文档</a></p><h3 id="screenshots"><a href="#screenshots" class="headerlink" title="screenshots"></a>screenshots</h3><p>主页<br><img src="/2018/01/10/追书神器/webapp.png" alt=""><br>精选<br><img src="/2018/01/10/追书神器/selection.png" alt=""><br>分类<br><img src="/2018/01/10/追书神器/category.png" alt=""><br>书单<br><img src="/2018/01/10/追书神器/bookList.png" alt=""><br>书单详情<br><img src="/2018/01/10/追书神器/bookListDetail.png" alt=""><br>排行<br><img src="/2018/01/10/追书神器/rank.png" alt=""><br>书籍详情<br><img src="/2018/01/10/追书神器/read.png" alt=""><br>阅读书籍<br><img src="/2018/01/10/追书神器/reading.png" alt=""></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;源码&quot;&gt;&lt;a href=&quot;#源码&quot; class=&quot;headerlink&quot; title=&quot;源码&quot;&gt;&lt;/a&gt;源码&lt;/h2&gt;
+        &lt;p&gt;纯属个人学习react,不用与商业用途    &lt;/p&gt;
+&lt;h3 id=&quot;技术栈&quot;&gt;&lt;a href=&quot;#技术栈&quot; class=&quot;headerlink&quot; title=&quot;技术栈&quot;&gt;&lt;/a&gt;技术栈&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;react + react-router-d
       
+    
+    </summary>
+    
+      <category term="projection" scheme="http://yoursite.com/categories/projection/"/>
+    
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序知乎日报</title>
+    <link href="http://yoursite.com/2017/12/17/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5/"/>
+    <id>http://yoursite.com/2017/12/17/微信小程序知乎日报/</id>
+    <published>2017-12-17T03:56:37.000Z</published>
+    <updated>2018-01-10T10:14:07.966Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>仅作小程序开发学习,不涉及商用</p><h3 id="目标功能"><a href="#目标功能" class="headerlink" title="目标功能"></a>目标功能</h3><ul><li>[X]主页<ul><li>轮播图 : \<swiper\></swiper\></li><li>内容长列表: \<scroll-view></scroll-view></li><li>下拉无限加载 : bindscrolltolower</li></ul></li><li>[X]主题列表</li><li>[X]主题详情</li><li>[X]文章阅读<ul><li>wxParse处理HTML片段</li></ul></li></ul><a id="more"></a><h3 id="API-WIKI"><a href="#API-WIKI" class="headerlink" title="API WIKI"></a>API WIKI</h3><p><a href="https://github.com/amumu233/zhihuDaily/wiki" target="_blank" rel="external">知乎日报API</a></p><h3 id="项目预览"><a href="#项目预览" class="headerlink" title="项目预览"></a>项目预览</h3><h4 id="代码地址github"><a href="#代码地址github" class="headerlink" title="代码地址github"></a>代码地址<a href="https://github.com/amumu233/WeappZhihuDaily" target="_blank" rel="external">github</a></h4><h4 id="screenshots"><a href="#screenshots" class="headerlink" title="screenshots"></a>screenshots</h4><ul><li>主页<br><img src="/2017/12/17/微信小程序知乎日报/home.jpg" alt="主页"></li><li>主题列表<br><img src="/2017/12/17/微信小程序知乎日报/themeList.jpg" alt="主题列表"></li><li>主题详情<br><img src="/2017/12/17/微信小程序知乎日报/themeDetail.jpg" alt="主题详情"></li><li>文章阅读<br><img src="/2017/12/17/微信小程序知乎日报/read.jpg" alt="readPost"></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;仅作小程序开发学习,不涉及商用&lt;/p&gt;
+&lt;h3 id=&quot;目标功能&quot;&gt;&lt;a href=&quot;#目标功能&quot; class=&quot;headerlink&quot; title=&quot;目标功能&quot;&gt;&lt;/a&gt;目标功能&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;[X]主页&lt;ul&gt;
+&lt;li&gt;轮播图 : \&lt;swiper\&gt;&lt;/swiper\&gt;&lt;/li&gt;
+&lt;li&gt;内容长列表: \&lt;scroll-view&gt;&lt;/scroll-view&gt;&lt;/li&gt;
+&lt;li&gt;下拉无限加载 : bindscrolltolower&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[X]主题列表&lt;/li&gt;
+&lt;li&gt;[X]主题详情&lt;/li&gt;
+&lt;li&gt;[X]文章阅读&lt;ul&gt;
+&lt;li&gt;wxParse处理HTML片段&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
