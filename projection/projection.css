@@ -53,13 +53,18 @@ li {
     right: 0;
     margin: auto;
 }
+.projection .list .item .content {
+    display: none;
+}
 a.see-link[href="#"]{
     display: none;
 }
 @media screen and (max-width: 720px) {
-    .projection .webui-popover-content{
+    
+    .projection .list .item .content {
         display: block;
     }
+
     .projection .list .item .images .image {
         float: left;
         width: 50%;
