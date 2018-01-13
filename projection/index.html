@@ -8,16 +8,16 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Amumu233</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="--- layout: post slug: &quot;projections&quot; title: &quot;作品集&quot; noDate: &quot;true&quot; comments: &quot;false&quot; ---                              // (function () {     //     var loadScript = function (path) {     //         var $">
+  <meta name="description" content="// (function () {     //     var loadScript = function (path) {     //         var $script = document.createElement(&apos;script&apos;)     //         document.getElementsByTagName(&apos;b">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Amumu233">
 <meta property="og:url" content="http://yoursite.com/projection/index.html">
 <meta property="og:site_name" content="Amumu233">
-<meta property="og:description" content="--- layout: post slug: &quot;projections&quot; title: &quot;作品集&quot; noDate: &quot;true&quot; comments: &quot;false&quot; ---                              // (function () {     //     var loadScript = function (path) {     //         var $">
-<meta property="og:updated_time" content="2018-01-11T02:04:09.185Z">
+<meta property="og:description" content="// (function () {     //     var loadScript = function (path) {     //         var $script = document.createElement(&apos;script&apos;)     //         document.getElementsByTagName(&apos;b">
+<meta property="og:updated_time" content="2018-01-11T03:21:58.860Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Amumu233">
-<meta name="twitter:description" content="--- layout: post slug: &quot;projections&quot; title: &quot;作品集&quot; noDate: &quot;true&quot; comments: &quot;false&quot; ---                              // (function () {     //     var loadScript = function (path) {     //         var $">
+<meta name="twitter:description" content="// (function () {     //     var loadScript = function (path) {     //         var $script = document.createElement(&apos;script&apos;)     //         document.getElementsByTagName(&apos;b">
   
     <link rel="alternative" href="/atom.xml" title="Amumu233" type="application/atom+xml">
   
@@ -154,13 +154,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        ---
+        <!-- ---
 layout: post
 slug: "projections"
 title: "作品集"
 noDate: "true"
 comments: "false"
----   
+---    -->
 
 
 <link rel="stylesheet" href="./projection.css">
@@ -301,8 +301,8 @@ for(var i = 0;i < itemList.length;i++){
 
     html += `<div class="item item${i}">
                 <div class="title">${itemList[i].title}</div>
-                ${thumbHtml}
-                <div class="webui-popover-content" style="font-size: 14px;">
+                
+                <div class="content" style="font-size: 14px;">
                     <div class="container shortIntro">
                         <span class="label">项目简介:</span>
                         <p class="detail">${itemList[i].shortIntro}</p>
@@ -312,7 +312,8 @@ for(var i = 0;i < itemList.length;i++){
                         <a class="see-link" href="${itemList[i].see}" target="_blank">效果预览</a>
                     </div>
                 </div>
-                <div class="content" style="font-size: 14px;">
+                ${thumbHtml}
+                <div class="webui-popover-content" style="font-size: 14px;">
                     <div class="container shortIntro">
                         <span class="label">项目简介:</span>
                         <p class="detail">${itemList[i].shortIntro}</p>
@@ -327,18 +328,38 @@ for(var i = 0;i < itemList.length;i++){
 
 $('.projection .list').html(html);
 
-$('.images').webuiPopover({ 
-    trigger: 'hover', 
-    // style: 'inverse', 
-    closeable: true, 
-    animation: 'pop', 
-    arrow: false, 
-    delay: { show: null, hidden: null },
-    placement: 'left',
-});
-$('.projection img').on('click',function(e){
-    e.stopPropagation();
-})
+
+function IsPC() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+}
+ 
+var flag = IsPC(); //true为PC端，false为手机端
+
+if(flag){
+    $('.images').webuiPopover({ 
+        trigger: 'hover', 
+        // style: 'inverse', 
+        closeable: true, 
+        animation: 'pop', 
+        arrow: false, 
+        delay: { show: null, hidden: null },
+        placement: 'left',
+    }); 
+}
+
+
+
 </script>
 
       
@@ -551,10 +572,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Weapp</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
@@ -564,6 +581,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">webpack</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Weapp</a>
               </li>
              
               <li class="article-tag-list-item">
